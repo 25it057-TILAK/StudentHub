@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - StudentHub</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+<header class="header">
+
+    <div class="logo">
+        <img src="../images/logo.png" alt="StudentHub">
+        <div class="logo-text">
+            <span>Student</span><b>Hub</b>
+        </div>
+    </div>
+
+    <nav>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="admin.html" class="active">Admin</a>
+        <a href="events.html">Events</a>
+        <a href="profile.html">Profile</a>
+    </nav>
+
+    <a href="login.html" class="login-btn">Logout</a>
+
+</header>
+
+
+<section class="dashboard-section">
+
+    <div class="dashboard-heading">
+        <div>
+            <p class="section-label">ADMIN PANEL</p>
+            <h1>Admin Dashboard</h1>
+            <span>Manage your StudentHub platform.</span>
+        </div>
+
+        <a href="events.html" class="btn-primary">+ Create Event</a>
+    </div>
+
+
+    <div class="dashboard-cards">
+
+        <div class="dashboard-card">
+            <div class="card-icon">👨‍🎓</div>
+            <h3>1,250</h3>
+            <p>Total Students</p>
+        </div>
+
+        <div class="dashboard-card">
+            <div class="card-icon">🎉</div>
+            <h3>48</h3>
+            <p>Total Events</p>
+        </div>
+
+        <div class="dashboard-card">
+            <div class="card-icon">💬</div>
+            <h3>320</h3>
+            <p>Feedback</p>
+        </div>
+
+        <div class="dashboard-card">
+            <div class="card-icon">👤</div>
+            <h3>15</h3>
+            <p>Admins</p>
+        </div>
+
+    </div>
+
+
+    <div class="admin-grid">
+
+        <div class="admin-panel">
+            <h2>Recent Students</h2>
+
+            <table class="professional-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Rahul Patel</td>
+                        <td>rahul@example.com</td>
+                        <td><span class="status active-status">Active</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>Priya Shah</td>
+                        <td>priya@example.com</td>
+                        <td><span class="status active-status">Active</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>Jay Mehta</td>
+                        <td>jay@example.com</td>
+                        <td><span class="status pending-status">Pending</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+        <div class="admin-panel">
+            <h2>Quick Actions</h2>
+
+            <a href="events.html" class="admin-action">
+                📅 Manage Events
+            </a>
+
+            <a href="feedback.html" class="admin-action">
+                💬 View Feedback
+            </a>
+
+            <a href="profile.html" class="admin-action">
+                👤 Manage Profile
+            </a>
+
+            <a href="contact.html" class="admin-action">
+                📩 Messages
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+</body>
+</html>
